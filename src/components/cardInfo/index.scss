@@ -1,0 +1,25 @@
+.card-note{
+    display: flex;
+    align-items: center;
+
+    .card-title{
+        margin-left: 10px;
+        font-size: 25px;
+    }
+}
+
+.card-content{
+    width: 100%;
+    min-height: 200px;
+    .card-img-wrapper{
+        float: left;
+        clear: both;
+        align: center;
+        .card-img{
+            width: 280px;
+            height: 280px;
+            border-radius: 10px;
+            margin-right: 10px
+        }
+    }
+}
