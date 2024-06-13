@@ -1,0 +1,31 @@
+.city-track{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    View{
+        // border: 1px solid red;
+        flex: 1;
+        height: 100px;
+        text-align: center;
+        line-height: 100px;
+        margin: 10px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);//设置两层阴影
+        background: linear-gradient(-45deg, #ffa63d, #ff3d77, #338aff, #3cf0c5);
+        border-radius: 10px;
+        transition: 0.5s;
+    }
+    View:hover{
+        background: linear-gradient(-45deg, #f6a84e, #ef5181, #3d7cce, #2da287);
+    }
+}
+.hot{
+    .hot-title{
+        font-size: 35px;
+    }
+    .hot-icon{
+        transform: rotate(90deg);
+    }
+    .hot-list{
+        
+    }
+}
